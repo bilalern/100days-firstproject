@@ -1,0 +1,188 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    
+}
+
+.menu {
+    display: flex;
+  list-style-type: none;
+  width: 100%;
+  justify-content: flex-end;
+  margin-right: 100px;
+}
+
+.menu-li {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    justify-content: flex-end;
+    
+}
+
+.menu-li > li {
+    margin: 25px;
+    justify-items: flex-end;
+}
+.Logo {
+    margin-left: 150px;
+}
+.menu-li > li:hover {
+    color: rgb(251,95,97);
+    cursor: pointer;
+}
+.reservation {
+    display: grid;
+    grid-template-areas: "A B";
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.sidebar {
+    font-family: 'Montserrat', sans-serif;
+    grid-area: A;
+    width: 400px;
+    background-color: #fb6355;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image1 {
+    grid-area: B;
+    
+}
+.sidebar-menu {
+    text-align: start;
+    font-size: 20px;
+    line-height: 5px;
+    align-items: center;
+    color: white;
+}
+
+.sidebar-menu > p {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.sidebar-menu > button {
+    width: 250px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fb6355;
+}
+.sidebar-menu > button:hover {
+    cursor: pointer;
+}
+.about {
+    display: grid;
+    grid-template-areas: "A B";
+    margin-top: 150px;
+}
+.about-sidebar {
+    grid-area: A;
+    margin-left: 150px;
+    margin-right: 40px;
+    text-align: left;
+}
+.about-image {
+    grid-area: B;
+    margin-right: 100px;
+}
+.about-images {
+        display: flex;
+        justify-content: space-between;
+}
+.menu-cake {
+    margin-top: 150px;
+    margin-left: 150px;
+    background-color: #fffafa;
+    
+}   
+.menu-cake > img {
+    width: 250px;
+    height: 350px;
+    margin-top: 50px;
+}
+.chefs {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.chefs-img > img {
+    border: 1px solid;
+    padding: 3px;
+}
+.contact-us {
+    background-image: url("london-stock.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-areas: "M N";
+    background-size: 3000px 800px;
+}
+.contact-side {
+    grid-area: M;
+    color: white;
+    margin-left: 150px;
+}
+.contact-form {
+    grid-area: N;
+}
+.form-container {
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 30px 50px;
+
+    
+}
+.form-container input {
+    width: 50%;
+}
+
+.table-reserv {
+    width: 100%;
+    
+}
+.w-100 {
+    width: 100%;
+}
+.form-input {
+    width: 50%;
+}
+
+    
+.table-button {
+    width: 100%;
+    background-color: #fb6355;
+    color: white;
+    cursor: pointer;
+}
+.contact-side > img {
+    width: 500px;
+    height: 180px;
+}
+.break-header {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.lunch {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     margin-top: 55px;
+}
+.break-container {
+    display: flex;
+}
